@@ -2,3 +2,14 @@ node_modules/
 .env
 dist/
 .DS_Store
+
+# Visual Studio build and user files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

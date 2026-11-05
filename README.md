@@ -1,6 +1,6 @@
-# Student Task Manager
+# StudyFlow-Student-Task-Manager
 
-A beginner-friendly full-stack project built with HTML, CSS, JavaScript, React, Node.js and Express.
+A full-stack student task management application built with React, Node.js and Express.
 
 ## Requirements
 - Node.js (LTS)
@@ -27,4 +27,4 @@ The React frontend runs on port 5173. The Express API runs on port 5000.
 - `DELETE /api/tasks/:id` — delete a task
 
 ## Note
-Tasks are stored in server memory for learning purposes. They reset when the backend restarts. A future improvement is to add MongoDB.
+Tasks are stored in `server/tasks.json` and persist when the backend restarts.
